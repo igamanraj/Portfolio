@@ -196,7 +196,7 @@ const Contact = () => {
         </motion.div>
       )}
       <span className="copyright">
-        <i>&#169; 2025 | All rights reserved. Made by Aman Raidas</i>
+        <i>&#169; 2025 | All rights reserved. Made with ❤️ by Aman Raidas</i>
       </span>
     </div>
   );

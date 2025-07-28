@@ -24,4 +24,4 @@ This portfolio demonstrates my expertise in software development and includes va
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/igamanraj/Portfolio?tab=MIT-1-ov-file) file for details.
 
 ---
-© 2025 Your Name. All rights reserved.
+© 2025 Aman Raidas. All rights reserved.
