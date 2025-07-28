@@ -165,7 +165,7 @@ export const userData = {
         techStack: ["JavaScript", "React", "CSS", "Github", "Vercel"],
         image: PortFolioImg,
         github: "https://github.com/igamanraj/Portfolio",
-        website: "https://thecyberatom-v1.netlify.app/",
+        website: "https://naman.codes",
       }
     ],
   },

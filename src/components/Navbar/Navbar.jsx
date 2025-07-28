@@ -3,7 +3,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import PersonIcon from "@mui/icons-material/Person";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import PermPhoneMsgIcon from "@mui/icons-material/PermPhoneMsg";
-import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
+// import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import AmanImg from "../../assets/aman.jpg";
 import "./Navbar.css";
@@ -53,12 +53,12 @@ const Navbar = () => {
               <p>About</p>
             </a>
           </li>
-          <li className="navbar-item">
-            <a href="#expedu">
-              <BusinessCenterIcon className="icon" />
-              <p>Experience</p>
-            </a>
-          </li>
+            {/* <li className="navbar-item">
+              <a href="#expedu">
+                <BusinessCenterIcon className="icon" />
+                <p>Experience</p>
+              </a>
+            </li> */}
           <li className="navbar-item">
             <a href="#projects">
               <LaptopMacIcon className="icon" />
