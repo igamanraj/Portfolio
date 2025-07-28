@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import ExpEdu from "./components/Experience/ExpEdu";
+// import ExpEdu from "./components/Experience/ExpEdu";
 import Customise from "./customise/Customise";
 import { hexToHSL } from "./utils/hexToHsl";
 import "./App.css";
@@ -40,7 +40,7 @@ const App = () => {
       <Navbar />
       <Home />
       <Skills />
-      <ExpEdu />
+      {/* <ExpEdu /> */}
       <Projects />
       <Contact />
     </div>

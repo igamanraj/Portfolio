@@ -7,6 +7,10 @@ import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import { motion } from "framer-motion";
 import "./Contact.css";
 import { userData } from "../../constants/userData";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import XIcon from '@mui/icons-material/X';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -89,7 +93,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {userData.contactData.linkedin}
+              <LinkedInIcon className="linkedin-icon" />
             </a>
             <a
               href={userData.socials.github}
@@ -97,15 +101,23 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {userData.contactData.github}
+              <GitHubIcon className="github-icon" />
             </a>
              <a
-              href={userData.socials.googleCloud}
+              href={userData.socials.twitter}
               aria-label="github profile"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {userData.contactData.googleCloud}
+              <XIcon className="twitter-icon" />
+            </a>
+            <a
+              href={userData.socials.whatsapp}
+              aria-label="whatsapp profile"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <WhatsAppIcon className="whatsapp-icon" />
             </a>
           </div>
         </motion.div>
@@ -184,7 +196,7 @@ const Contact = () => {
         </motion.div>
       )}
       <span className="copyright">
-        <i>&#169; 2024 | All rights reserved. Made by Rahul Kumar Mishra</i>
+        <i>&#169; 2025 | All rights reserved. Made by Aman Raidas</i>
       </span>
     </div>
   );

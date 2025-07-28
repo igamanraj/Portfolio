@@ -16,7 +16,7 @@ const ProjectCard = ({ item }) => {
       //   viewport={{ once: true }}
     >
       <div className="project-image">
-        <img src={item.image} alt={item.name} />
+        <img src={item.image} alt={item.name} loading="lazy"/>
       </div>
       <div className="project-details">
         <div className="project-title">

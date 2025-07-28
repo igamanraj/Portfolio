@@ -5,14 +5,14 @@ import PortFolioImg from "../assets/Portfolio.png";
 // import TasteTroopImg from "../assets/tastetroop.jpeg";
 import ReactIcon from "../assets/React.svg";
 import JavaScriptIcon from "../assets/JavaScript.svg";
-import HTMLIcon from "../assets/HTML5.svg";
-import CSSIcon from "../assets/CSS3.svg";
-import BootstrapIcon from "../assets/Bootstrap.svg";
+// import HTMLIcon from "../assets/HTML5.svg";
+// import CSSIcon from "../assets/CSS3.svg";
+// import BootstrapIcon from "../assets/Bootstrap.svg";
 import TailwindIcon from "../assets/Tailwind CSS.svg";
 import ExpressIcon from "../assets/Express.svg";
 import MongoDBIcon from "../assets/MongoDB.svg";
 import GitIcon from "../assets/Git.svg";
-import GitHubIcon from "../assets/GitHub.svg";
+// import GitHubIcon from "../assets/GitHub.svg";
 import NextJsIcon from "../assets/Next.js.svg";
 import NodeJsIcon from "../assets/Node.js.svg";
 
@@ -21,12 +21,14 @@ export const userData = {
   location: "Lucknow, India",
   role: "Web Developer",
   role_desc:
-    "Hi, I'm Aman Raidas. A dedicated frontend professional exploring backend technologies to build robust, full-stack websites.",
+    "Hi, I'm Aman Raidas. A dedicated full-stack professional exploring backend technologies to build robust, full-stack websites.",
   socials: {
     linkedin: "https://www.linkedin.com/in/igamanraj/",
     github: "https://github.com/igamanraj",
     // googleCloud: "https://www.cloudskillsboost.google/public_profiles/72516cdd-38b4-422e-a2bc-fcf66a79013a",
     email: "amanra812727@gmail.com",
+    twitter: "https://twitter.com/igamanraj",
+    whatsapp: "https://wa.me/+919569321609",
   },
   skillsData: {
     title: "My Tech Stack",
@@ -123,7 +125,7 @@ export const userData = {
         // image: SRMImg,
       },
     ],
-  },  
+  },
   projectsData: {
     title: "Personal Projects",
     desc: "Code-Powered Designs in Action",
@@ -150,7 +152,7 @@ export const userData = {
         id: 2,
         name: "Mern - NanoTech",
         description: "A MERN stack application featuring a user-friendly interface, secure google authentication, and a comprehensive admin dashboard for managing users and admin functionalities.",
-        techStack: ["JavaScript", "React", "CSS", "GSAP", "Netlify"],
+        techStack: ["JavaScript", "React", "Tailwind CSS", "Firebase", "Node.js", "Express", "MongoDB"],
         image: NanoTechImg,
         github: "https://github.com/igamanraj/MERN",
         website: "https://nanotech-pi.vercel.app/",
@@ -160,7 +162,7 @@ export const userData = {
         name: "Portfolio",
         description:
           "A personal portfolio website showcasing my skills, projects, and experience in web development.",
-        techStack: ["JavaScript", "React", "CSS", "GSAP", "Netlify"],
+        techStack: ["JavaScript", "React", "CSS", "Github", "Vercel"],
         image: PortFolioImg,
         github: "https://github.com/igamanraj/Portfolio",
         website: "https://thecyberatom-v1.netlify.app/",
@@ -174,5 +176,6 @@ export const userData = {
     emailDesc: "Mail me at",
     linkedin: "Linkedin",
     github: "Github",
+    twitter : "Twitter",
   },
 };

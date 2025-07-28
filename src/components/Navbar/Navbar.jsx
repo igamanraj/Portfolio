@@ -5,6 +5,7 @@ import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import PermPhoneMsgIcon from "@mui/icons-material/PermPhoneMsg";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import AmanImg from "../../assets/aman.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -68,6 +69,11 @@ const Navbar = () => {
             <a href="#contact">
               <PermPhoneMsgIcon className="icon" />
               <p>Contact</p>
+            </a>
+          </li>
+           <li className="navbar-item">
+            <a href="/">
+              <img src={AmanImg} alt="Logo" style={{ width: "40px", height: "40px", borderRadius: "50%" }} />
             </a>
           </li>
         </ul>

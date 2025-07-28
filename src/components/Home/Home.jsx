@@ -1,4 +1,3 @@
-import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
@@ -48,7 +47,7 @@ const Home = () => {
           </a>
           <a
             className="secondary-button"
-            href="/Resume_Portfolio.pdf"
+            href="https://flowcv.com/resume/h72psnm19c9l"
             target="_blank"
             aria-label="Resume"
             rel="noopener noreferrer"
@@ -59,7 +58,7 @@ const Home = () => {
         <div className="home-content-links">
           <motion.a
             className="gmail"
-            href="mailto:rkm.rahulkmishra@gmail.com"
+            href="mailto:amanra812727@gmail.com"
             aria-label="Email"
             target="_blank"
             rel="noopener noreferrer"
@@ -71,7 +70,7 @@ const Home = () => {
           </motion.a>
           <motion.a
             className="github"
-            href="https://github.com/TheCyberAtom"
+            href="https://github.com/igamanraj"
             aria-label="github profile"
             target="_blank"
             rel="noopener noreferrer"
@@ -83,7 +82,7 @@ const Home = () => {
           </motion.a>
           <motion.a
             className="linkedin"
-            href="https://www.linkedin.com/in/thecyberatom/"
+            href="https://www.linkedin.com/in/igamanraj"
             aria-label="github profile"
             target="_blank"
             rel="noopener noreferrer"
