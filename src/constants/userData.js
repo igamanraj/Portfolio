@@ -1,6 +1,6 @@
 import ChatAppImg from "../assets/ChatApp.png";
 import NanoTechImg from "../assets/NanoTech.png";
-import PortFolioImg from "../assets/Portfolio.png";
+import PortFolioImg from "../assets/PortFolio.png";
 // import PortfolioImg from "../assets/portfolio.jpeg";
 // import TasteTroopImg from "../assets/tastetroop.jpeg";
 import ReactIcon from "../assets/React.svg";
