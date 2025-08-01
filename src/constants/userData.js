@@ -146,7 +146,7 @@ export const userData = {
         ],
         image: ChatAppImg,
         github: "https://github.com/igamanraj/Chat-Web-App",
-        website: "https://chat-app-tan-zeta.vercel.app/",
+        website: "https://chatapp-io.vercel.app/",
       },
       {
         id: 2,
