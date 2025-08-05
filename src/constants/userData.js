@@ -15,6 +15,7 @@ import GitIcon from "../assets/Git.svg";
 // import GitHubIcon from "../assets/GitHub.svg";
 import NextJsIcon from "../assets/Next.js.svg";
 import NodeJsIcon from "../assets/Node.js.svg";
+import TenzorImg from "../assets/Tenzor.png";
 
 export const userData = {
   name: "Aman Raidas",
@@ -161,11 +162,20 @@ export const userData = {
         id: 3,
         name: "Portfolio",
         description:
-          "A personal portfolio website showcasing my skills, projects, and experience in web development.",
+          "A personal portfolio website showcasing my skills, projects, and experience in web development. It features a clean design, responsive layout, and smooth navigation to highlight my work effectively.",
         techStack: ["JavaScript", "React", "CSS", "Github", "Vercel"],
         image: PortFolioImg,
         github: "https://github.com/igamanraj/Portfolio",
         website: "https://naman.codes",
+      },
+      {
+        id: 4,
+        name: "Tenzor",
+        description: "A simple and interactive AI-Powered Calculator that can perform basic tasks with also advanced tasks like you can draw a picture and it will tell you what it is.",
+        techStack: ["TypeScript", "React", "Tailwind CSS", "Python", "Gemini Api", "Flask", "Render"],
+        image: TenzorImg,
+        github: "https://github.com/igamanraj/Tenzor",
+        website: "https://tenzor-io.vercel.app",
       }
     ],
   },
