@@ -16,6 +16,7 @@ import GitIcon from "../assets/Git.svg";
 import NextJsIcon from "../assets/Next.js.svg";
 import NodeJsIcon from "../assets/Node.js.svg";
 import TenzorImg from "../assets/Tenzor.png";
+import ExpImg from "../assets/Exp.png"
 
 export const userData = {
   name: "Aman Raidas",
@@ -138,7 +139,7 @@ export const userData = {
           "A real-time chat application with fast performance, allowing users to upload their images, and send messages.",
         techStack: [
           "JavaScript",
-          "React",
+          "Next.js",
           "React Router",
           "Node Js",
           "Express",
@@ -151,18 +152,18 @@ export const userData = {
       },
       {
         id: 2,
-        name: "Mern - NanoTech",
-        description: "A MERN stack application featuring a user-friendly interface, secure google authentication, and a comprehensive admin dashboard for managing users and admin functionalities.",
-        techStack: ["JavaScript", "React", "Tailwind CSS", "Firebase", "Node.js", "Express", "MongoDB"],
-        image: NanoTechImg,
-        github: "https://github.com/igamanraj/MERN",
-        website: "https://nanotech-pi.vercel.app/",
+        name: "Expense Tracker",
+        description: "An A.I. powered expense tracker that helps users manage their finances effectively.",
+        techStack: ["Typescript", "Next.js", "Clerk","Neon", "Prisma","Tailwind CSS", "PostgreSQL"],
+        image: ExpImg,
+        github: "https://github.com/igamanraj/Next-Expense-Tracker-AI",
+        website: "https://exptrackerai-io.vercel.app",
       },
       {
         id: 3,
         name: "Portfolio",
         description:
-          "A personal portfolio website showcasing my skills, projects, and experience in web development. It features a clean design, responsive layout, and smooth navigation to highlight my work effectively.",
+        "A personal portfolio website showcasing my skills, projects, and experience in web development. It features a clean design, responsive layout, and smooth navigation to highlight my work effectively.",
         techStack: ["JavaScript", "React", "CSS", "Github", "Vercel"],
         image: PortFolioImg,
         github: "https://github.com/igamanraj/Portfolio",
@@ -176,7 +177,16 @@ export const userData = {
         image: TenzorImg,
         github: "https://github.com/igamanraj/Tenzor",
         website: "https://tenzor-io.vercel.app",
-      }
+      },
+      {
+        id: 5,
+        name: "Mern - NanoTech",
+        description: "A MERN stack application featuring a user-friendly interface, secure google authentication, and a comprehensive admin dashboard for managing users and admin functionalities.",
+        techStack: ["JavaScript", "React", "Tailwind CSS", "Firebase", "Node.js", "Express", "MongoDB"],
+        image: NanoTechImg,
+        github: "https://github.com/igamanraj/MERN",
+        website: "https://nanotech-pi.vercel.app/",
+      },
     ],
   },
   contactData: {
