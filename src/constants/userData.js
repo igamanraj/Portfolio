@@ -17,7 +17,7 @@ import NextJsIcon from "../assets/Next.js.svg";
 import NodeJsIcon from "../assets/Node.js.svg";
 import TenzorImg from "../assets/Tenzor.png";
 import ExpImg from "../assets/Exp.png"
-import StuddyImg from "../assets/Studdy.png"
+import StuddyImg from "../assets/studdy.png"
 
 export const userData = {
   name: "Aman Raidas",
