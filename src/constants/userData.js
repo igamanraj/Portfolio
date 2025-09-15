@@ -17,6 +17,7 @@ import NextJsIcon from "../assets/Next.js.svg";
 import NodeJsIcon from "../assets/Node.js.svg";
 import TenzorImg from "../assets/Tenzor.png";
 import ExpImg from "../assets/Exp.png"
+import StuddyImg from "../assets/Studdy.png"
 
 export const userData = {
   name: "Aman Raidas",
@@ -134,21 +135,13 @@ export const userData = {
     projects: [
       {
         id: 1,
-        name: "Chat App",
+        name: "Studdy-Buddy",
         description:
-          "A real-time chat application with fast performance, allowing users to upload their images, and send messages.",
-        techStack: [
-          "JavaScript",
-          "Next.js",
-          "React Router",
-          "Node Js",
-          "Express",
-          "Socket.io",
-          "Render"
-        ],
-        image: ChatAppImg,
-        github: "https://github.com/igamanraj/Chat-Web-App",
-        website: "https://chatapp-io.vercel.app/",
+          "A comprehensive educational platform that offers a variety of courses, interactive quizzes, and progress tracking to enhance learning experiences.",
+          techStack: ["JavaScript", "React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT", "Firebase"],
+        image: StuddyImg,
+        github: "https://github.com/igamanraj/Studdy-Buddy",
+        website: "https://studdybuddy-io.vercel.app",
       },
       {
         id: 2,
@@ -171,6 +164,24 @@ export const userData = {
       },
       {
         id: 4,
+        name: "Chat App",
+        description:
+          "A real-time chat application with fast performance, allowing users to upload their images, and send messages.",
+        techStack: [
+          "JavaScript",
+          "Next.js",
+          "React Router",
+          "Node Js",
+          "Express",
+          "Socket.io",
+          "Render"
+        ],
+        image: ChatAppImg,
+        github: "https://github.com/igamanraj/Chat-Web-App",
+        website: "https://chatapp-io.vercel.app/",
+      },
+      {
+        id: 5,
         name: "Tenzor",
         description: "A simple and interactive AI-Powered Calculator that can perform basic tasks with also advanced tasks like you can draw a picture and it will tell you what it is.",
         techStack: ["TypeScript", "React", "Tailwind CSS", "Python", "Gemini Api", "Flask", "Render"],
@@ -179,7 +190,7 @@ export const userData = {
         website: "https://tenzor-io.vercel.app",
       },
       {
-        id: 5,
+        id: 6,
         name: "Mern - NanoTech",
         description: "A MERN stack application featuring a user-friendly interface, secure google authentication, and a comprehensive admin dashboard for managing users and admin functionalities.",
         techStack: ["JavaScript", "React", "Tailwind CSS", "Firebase", "Node.js", "Express", "MongoDB"],
