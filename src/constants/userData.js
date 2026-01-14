@@ -1,23 +1,25 @@
-import ChatAppImg from "../assets/ChatApp.png";
-import NanoTechImg from "../assets/NanoTech.png";
-import PortFolioImg from "../assets/PortFolio.png";
-// import PortfolioImg from "../assets/portfolio.jpeg";
-// import TasteTroopImg from "../assets/tastetroop.jpeg";
+import ExpImg from "../assets/Exp.png"
+import GitIcon from "../assets/Git.svg";
+import VibeImg from "../assets/Vibe.png";
 import ReactIcon from "../assets/React.svg";
-import JavaScriptIcon from "../assets/JavaScript.svg";
-// import HTMLIcon from "../assets/HTML5.svg";
-// import CSSIcon from "../assets/CSS3.svg";
-// import BootstrapIcon from "../assets/Bootstrap.svg";
-import TailwindIcon from "../assets/Tailwind CSS.svg";
+import TenzorImg from "../assets/Tenzor.png";
+import StuddyImg from "../assets/Studdy.png"
+import ChatAppImg from "../assets/ChatApp.png";
+import NodeJsIcon from "../assets/Node.js.svg";
+import NextJsIcon from "../assets/Next.js.svg";
 import ExpressIcon from "../assets/Express.svg";
 import MongoDBIcon from "../assets/MongoDB.svg";
-import GitIcon from "../assets/Git.svg";
+import NanoTechImg from "../assets/NanoTech.png";
+import PortFolioImg from "../assets/PortFolio.png";
+import JavaScriptIcon from "../assets/JavaScript.svg";
+import TailwindIcon from "../assets/Tailwind CSS.svg";
+
+// import PortfolioImg from "../assets/portfolio.jpeg";
+// import TasteTroopImg from "../assets/tastetroop.jpeg";
+// import CSSIcon from "../assets/CSS3.svg";
+// import HTMLIcon from "../assets/HTML5.svg";
+// import BootstrapIcon from "../assets/Bootstrap.svg";
 // import GitHubIcon from "../assets/GitHub.svg";
-import NextJsIcon from "../assets/Next.js.svg";
-import NodeJsIcon from "../assets/Node.js.svg";
-import TenzorImg from "../assets/Tenzor.png";
-import ExpImg from "../assets/Exp.png"
-import StuddyImg from "../assets/Studdy.png"
 
 export const userData = {
   name: "Aman Raidas",
@@ -135,16 +137,25 @@ export const userData = {
     projects: [
       {
         id: 1,
+        name: "Vibe",
+        description:"An AI-powered code generation and project management platform built with Next.js, Prisma, and Inngest. It streamlines project workflows by generating code snippets and managing tasks efficiently.",
+        image: VibeImg,
+        techStack: ["TypeScript", "Next.js", "Prisma", "Inngest", "Tailwind CSS", "Gemini API","E2B", "Vercel"],
+        github: "https://github.com/igamanraj/Vibe",
+        website: "https://vibe-io.vercel.app",
+      },
+      {
+        id: 2,
         name: "Studdy-Buddy",
         description:
           "A comprehensive educational platform that offers a variety of courses, interactive quizzes, and progress tracking to enhance learning experiences.",
-          techStack: ["JavaScript", "React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT", "Firebase"],
+          techStack: ["JavaScript", "React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "JWT"],
         image: StuddyImg,
         github: "https://github.com/igamanraj/Studdy-Buddy",
         website: "https://studdybuddy-io.vercel.app",
       },
       {
-        id: 2,
+        id: 3,
         name: "Expense Tracker",
         description: "An A.I. powered expense tracker that helps users manage their finances effectively.",
         techStack: ["Typescript", "Next.js", "Clerk","Neon", "Prisma","Tailwind CSS", "PostgreSQL"],
@@ -153,7 +164,7 @@ export const userData = {
         website: "https://exptrackerai-io.vercel.app",
       },
       {
-        id: 3,
+        id: 4,
         name: "Portfolio",
         description:
         "A personal portfolio website showcasing my skills, projects, and experience in web development. It features a clean design, responsive layout, and smooth navigation to highlight my work effectively.",
@@ -163,7 +174,7 @@ export const userData = {
         website: "https://naman.codes",
       },
       {
-        id: 4,
+        id: 5,
         name: "Chat App",
         description:
           "A real-time chat application with fast performance, allowing users to upload their images, and send messages.",
@@ -181,7 +192,7 @@ export const userData = {
         website: "https://chatapp-io.vercel.app/",
       },
       {
-        id: 5,
+        id: 6,
         name: "Tenzor",
         description: "A simple and interactive AI-Powered Calculator that can perform basic tasks with also advanced tasks like you can draw a picture and it will tell you what it is.",
         techStack: ["TypeScript", "React", "Tailwind CSS", "Python", "Gemini Api", "Flask", "Render"],
@@ -190,7 +201,7 @@ export const userData = {
         website: "https://tenzor-io.vercel.app",
       },
       {
-        id: 6,
+        id: 7,
         name: "Mern - NanoTech",
         description: "A MERN stack application featuring a user-friendly interface, secure google authentication, and a comprehensive admin dashboard for managing users and admin functionalities.",
         techStack: ["JavaScript", "React", "Tailwind CSS", "Firebase", "Node.js", "Express", "MongoDB"],
