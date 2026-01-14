@@ -3,7 +3,7 @@ import GitIcon from "../assets/Git.svg";
 import VibeImg from "../assets/Vibe.png";
 import ReactIcon from "../assets/React.svg";
 import TenzorImg from "../assets/Tenzor.png";
-import StuddyImg from "../assets/Studdy.png"
+import StuddyImg from "../assets/studdy.png"
 import ChatAppImg from "../assets/ChatApp.png";
 import NodeJsIcon from "../assets/Node.js.svg";
 import NextJsIcon from "../assets/Next.js.svg";
